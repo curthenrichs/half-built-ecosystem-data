@@ -1,0 +1,6 @@
+# This host serves one JSON document for other sites to fetch. There is
+# nothing here to index, and a raw data file in search results under the
+# brand is noise, so nothing is crawlable. The _headers file sets
+# X-Robots-Tag as well, for anything that ignores this.
+User-agent: *
+Disallow: /
