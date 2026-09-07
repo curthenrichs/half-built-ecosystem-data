@@ -1,7 +1,9 @@
+# Pages applies every matching rule, not just the most specific one, so
+# the noindex belongs in the catch-all alone. Repeating it here sent
+# X-Robots-Tag twice on the JSON.
 /ecosystem.json
   Access-Control-Allow-Origin: *
   Cache-Control: public, max-age=300, stale-while-revalidate=86400
-  X-Robots-Tag: noindex
 
 /*
   X-Robots-Tag: noindex
