@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "updated": "2026-09-06",
+  "entries": [
+    { "key": "blog", "label": "Half-Built Robots", "href": "https://half-built-robots.com/", "priority": 0, "family": "half-built" },
+    { "key": "beadz", "label": "The Bead Reserve", "href": null, "priority": 1, "family": "half-built" },
+    { "key": "portfolio", "label": "Portfolio", "href": "https://curthenrichs.github.io/", "priority": 1, "family": "adjacent" },
+    { "key": "okospolip", "label": "Okos Polip", "href": null, "priority": 2, "family": "adjacent" },
+    { "key": "ui", "label": "half-built-ui", "href": "https://ui.half-built-robots.com/", "priority": 3, "family": "half-built" }
+  ]
+}
