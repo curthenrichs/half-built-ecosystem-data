@@ -4,7 +4,12 @@
    ecosystem.ts) on purpose: the two live in different repos with no
    dependency between them, and the island refusing bad data protects
    readers while this protects the person editing the file. Keep the
-   two in step by hand when the schema changes. */
+   two in step by hand when the schema changes.
+
+   Two deliberate divergences: this validator additionally rejects
+   duplicate keys, and enforces a closed family set, where the island
+   accepts any non-empty family so a new family can ship in the
+   document without every already-deployed site refusing it. */
 import { readFileSync } from "node:fs";
 
 const FAMILIES = new Set(["half-built", "adjacent"]);
