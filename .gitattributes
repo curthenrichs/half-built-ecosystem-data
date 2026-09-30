@@ -1,0 +1,9 @@
+# Line-ending policy: LF in the repository and on checkout. Same policy as
+# the other half-built repos, so a Windows edit cannot commit CRLF into the
+# served document or its headers.
+
+* text=auto eol=lf
+
+# Binary assets, never normalized (none today).
+*.png   binary
+*.ico   binary
