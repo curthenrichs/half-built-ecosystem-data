@@ -4,8 +4,8 @@ The list of web properties in the half-built family, served as one JSON
 document so every site can render the others without hardcoding them.
 
 Consumed at runtime by the footer island in `@half-built/astro`
-(`scripts/ecosystem`). Design record: `2026-09-06-ecosystem-endpoint-design.md`
-in the half-built-ui repo.
+(`scripts/ecosystem`). Its behavior (retries, the last-good cache, the
+self-key check) is in the half-built-ui repo's `docs/design-record.md`.
 
 ## The endpoint
 
